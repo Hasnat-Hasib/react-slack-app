@@ -1,21 +1,16 @@
-import firebase from 'firebase/app';
-import 'firebase/auth';
-import 'firebase/database';
-import 'firebase/storage';
-var firebaseConfig = {
-    apiKey: "AIzaSyCw4O4-NZiMU_MEo_cb2AoNBM3GnBPkvkY",
-    authDomain: "react-slack-app-17c80.firebaseapp.com",
-    databaseURL: "https://react-slack-app-17c80.firebaseio.com",
-    projectId: "react-slack-app-17c80",
-    storageBucket: "react-slack-app-17c80.appspot.com",
-    messagingSenderId: "136288139714",
-    appId: "1:136288139714:web:c9f59fd71003b547403e5b",
-    measurementId: "G-7MT1X4TZJ5"
-  };
+import firebase from "firebase/app";
+import "firebase/auth";
+import "firebase/database";
+import "firebase/storage";
 
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
- // firebase.analytics();
+var config = {
+  apiKey: "AIzaSyCREQMYIbAYKscrS_JYvWP4KpMsF_jI5Bg",
+  authDomain: "react-slack-clone.firebaseapp.com",
+  databaseURL: "https://react-slack-clone.firebaseio.com",
+  projectId: "react-slack-clone",
+  storageBucket: "react-slack-clone.appspot.com",
+  messagingSenderId: "423395756405"
+};
+firebase.initializeApp(config);
 
-
-  export default firebase;
+export default firebase;
